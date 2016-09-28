@@ -1,4 +1,4 @@
-# CSCI E-15 Dynamic Web Applications, Project 1
+# CSCI E-3 Web Programming Using JavaScript, Project
 
 The game consists of 16 tiles, arranged in a 4x4 grid, that starts out numerically or visually sorted. To start the game, the player must click the SHUFFLE button to randomly scramble the tiles. To rearrange the tiles, the player can click on a tile to slide it to the empty place. The goal of the game is to bring all tiles to its original position. 
 
