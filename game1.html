@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>15 Puzzle</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/skeleton.css"> <!-- framework -->
+
+</head>
+<body>
+<!--################ header ######################--> 
+<header>
+<div class="container">
+    <div class="row">
+        <div class="twelve columns">
+            <h1 id= "mainLogo">Puzzle Games</h1>
+            <p id="desc">Final Project <br>CSCI E-3 Spring 2016</p>
+             
+        <div id="menu">
+            <nav>
+                <ul >
+                    <li><a href="Intro.html">Instructions</a></li>
+                    <li class="current"><a href="game1.html">15 Puzzle</a></li>
+                    <li><a href="game2.html">Picture Puzzle</a></li>
+                </ul>
+            </nav>
+            <div class="clear"></div>
+        </div>
+      </div>      
+   </div>
+</div><!-- end of container -->
+</header>
+<!--################ Game1 ######################--> 
+<div class="gameBoard container">
+<div class="row">
+    <div class="eight columns" id="fifteen"> 
+    <div id="cardBoard">
+    <div class="row ">
+      <div class="three columns ">1</div>
+      <div class="three columns ">2</div>
+      <div class="three columns ">3</div>
+      <div class="three columns ">4</div>
+    </div>
+    
+    <div class="row">
+      <div class="three columns ">5</div>
+      <div class="three columns ">6</div>
+      <div class="three columns ">7</div>
+      <div class="three columns ">8</div>
+    </div>
+    
+    <div class="row">
+     <div class="three columns ">9</div>
+      <div class="three columns ">10</div>
+      <div class="three columns ">11</div>
+      <div class="three columns ">12</div>
+    </div>
+   
+    <div class="row">
+     <div class="three columns ">13</div>
+      <div class="three columns ">14</div>
+      <div class="three columns ">15</div>
+      <div class="three columns "></div>
+    </div>
+    </div>
+    </div><!-- end of 8 columns-->
+
+    <div class="four columns"> 
+        <button id="shuffle" class="button">Shuffle</button>
+        <button id="end" class="button">End Game</button>
+        <div class="timer">Timer&nbsp;:<span id="time"></span> </div>
+        <div class="timer">Current&nbsp;:<span id="current">0 : 0</span> </div>
+        <div class="timer">Best&nbsp;:<span id="best">0 : 0</span> </div>
+
+    </div><!-- end of 4 columns-->
+</div>
+</div><!-- end of container -->
+<!--################ Footer ######################--> 
+<footer>   
+    <div class="container">
+    <div class="row">
+        <div class="twelve columns">
+        <br>
+        <br>
+         <p id ="siteBy">Developed by Rajrupa Bakshi</p>
+        </div>
+    </div> 
+    </div>  
+</footer>
+ <script src = "js/game1.js"></script>
+</body>
+
+</html>

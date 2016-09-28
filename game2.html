@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Picture Puzzle</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/skeleton.css"> <!-- framework -->
+
+</head>
+<body>
+<!--################ header ######################--> 
+<header>
+
+<div class="container">
+    <div class="row">
+        <div class="twelve columns">
+            <h1 id= "mainLogo">Puzzle Games</h1>
+            <p id="desc">Final Project <br>CSCI E-3 Spring 2016</p>
+             
+        <div id="menu">
+            <nav>
+                <ul >
+                    <li><a href="Intro.html">Instructions</a></li>
+                    <li ><a href="game1.html">15 Puzzle</a></li>
+                    <li class="current"><a href="game2.html">Picture Puzzle</a></li>
+                </ul>
+            </nav>
+            <div class="clear"></div>
+        </div>
+      </div>      
+   </div>
+</div><!-- end of container -->
+</header>
+<!--################ Game2 ######################--> 
+<div class="gameBoard container">
+<div class="row">
+    <div class="eight columns" id="game2"> 
+    <div id = "cardBoard2">
+   <div class="row ">
+        <div class="three columns " id="tile1"></div>
+        <div class="three columns " id="tile2"></div>
+        <div class="three columns " id="tile3"></div>
+        <div class="three columns " id="tile4"></div>
+    </div>
+    
+    <div class="row">
+        <div class="three columns " id="tile5"></div>
+        <div class="three columns " id="tile6"></div>
+        <div class="three columns " id="tile7"></div>
+        <div class="three columns " id="tile8"></div>
+    </div>
+    
+    <div class="row">
+        <div class="three columns " id="tile9"></div>
+        <div class="three columns " id="tile10"></div>
+        <div class="three columns " id="tile11"></div>
+        <div class="three columns " id="tile12"></div>
+    </div>
+   
+    <div class="row">
+        <div class="three columns " id="tile13"></div>
+        <div class="three columns " id="tile14"></div>
+        <div class="three columns " id="tile15"></div>
+        <div class="three columns " id="tile16"></div>
+    </div>
+
+    </div>
+    </div><!-- end of 8 columns-->
+    
+    <div class="four columns"> 
+        <button id="shuffle" class="button">Shuffle</button>
+        <button id="end" class="button">End Game</button>
+        <div class="timer">Timer&nbsp;:<span id="time"></span> </div>
+        <div class="timer">Current&nbsp;:<span id="current">0 : 0</span> </div>
+        <div class="timer">Best&nbsp;:<span id="best">0 : 0</span> </div>
+        <div id= "bg"> <img src="images/main.png" alt="puzzle picture"></div>
+    </div><!-- end of 4 columns-->
+    
+</div>
+</div><!-- end of container -->
+
+<!--################ Footer ######################--> 
+<footer>   
+    <div class="container">
+    <div class="row">
+        <div class="twelve columns">
+        <br>
+        <br>
+         <p id ="siteBy">Developed by Rajrupa Bakshi</p>
+        </div>
+    </div> 
+    </div>  
+</footer>
+  <script src = "js/game2.js"></script> 
+</body>
+
+</html>
